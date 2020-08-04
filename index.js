@@ -4,7 +4,7 @@ const fs = require('fs')
 const { gzip } = require('zlib')
 const json2csv = require('json2csv').Parser
 
-const movies = ['https://www.imdb.com/title/tt8110330/?ref_=nv_sr_srsg_0', 'https://www.imdb.com/title/tt1187043/?ref_=nv_sr_srsg_0', 'https://www.imdb.com/title/tt0405508/?ref_=nv_sr_srsg_0'];
+const movies = ['https://www.imdb.com/title/tt8110330/?ref_=nv_sr_srsg_0', 'https://www.imdb.com/title/tt12004706/?ref_=nv_sr_srsg_0', 'https://www.imdb.com/title/tt1187043/?ref_=nv_sr_srsg_0', 'https://www.imdb.com/title/tt0405508/?ref_=nv_sr_srsg_0'];
 (async () => {
   let imdbData = [];
   for (let movie of movies) {
