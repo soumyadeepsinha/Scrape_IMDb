@@ -1,5 +1,5 @@
 # Scrape_IMDb
-This is a simple Node-js application to scrap some movie's information from IMDb website
+This is a simple Node-js application to scrape some movie's information from IMDb website
 ---
 By Inspecting Element from Browser, we get some jquery functions for Title, Ratings, Summery, etc of a movie and leter we use it in our application to scrap them.
 
