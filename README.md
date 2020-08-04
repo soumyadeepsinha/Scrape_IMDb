@@ -10,4 +10,4 @@ By Inspecting Element from Browser, we get some jquery functions for Title, Rati
 
 ### Here we need some of npm modules, like: require, require-promise, cheerio & json2csv
 
-### We also filesystem(fs) to create a csv file
+### We also use filesystem(fs) to create a csv file
